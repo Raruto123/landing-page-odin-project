@@ -1,0 +1,183 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: 
+    local("Roboto") format("truetype");
+}
+
+body {
+    font-family : 'Roboto';
+    overflow-x: hidden;
+}
+
+.header-top, 
+.header-middle, 
+.body-two,
+.cta-paragraph-button,
+footer,
+.header-links,
+.body-one-empty-boxes,
+.body-three, 
+.body-two-cite {
+    display: flex;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+.header-top {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    gap: 40px;
+    font-size: 18px;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header-middle {
+    gap: 170px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    align-items: flex-end;
+}
+
+.header-middle-box-one {
+    text-align: start;
+    width: 300px;
+}
+
+.header-middle-box-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-middle-box-one p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-middle-box-one button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px ;
+    font-weight: bold;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+}
+
+.header-middle-box-two {
+    border: 1px solid black;
+    width: 500px;
+    height: 250px;
+}
+
+.header-middle, footer, .body-three {
+    justify-content: center;
+}
+
+.body-one {
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.body-one-text {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.body-one-empty-boxes {
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.body-one-empty-boxes div figure img {
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.body-one-empty-boxes div figure figcaption {
+    text-align: center;
+    font-size: 32px;
+    color: #737576;
+}
+
+.body-two {
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding: 50px;
+}
+
+.body-two div blockquote p {
+    text-align: start;
+    font-size: 36px;
+    width: 600px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.body-two-cite {
+    font-weight: bolder;
+    justify-content: end;
+    font-style: normal;
+}
+
+.cta-paragraph-button {
+    border: none;
+    border-radius: 5px;
+    width: 900px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+}
+
+.cta-paragraph-button button {
+        background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px ;
+    font-weight: bold;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+}
+
+
+
+.body-three {
+    background-color: white;
+    padding: 90px;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+}

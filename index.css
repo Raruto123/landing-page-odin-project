@@ -6,19 +6,32 @@
 }
 
 @font-face {
-    /* font-family: 'Roboto';
-    src: 
-    local("Roboto") format("truetype"); */
-    font-family: "Roboto-Regular", "Roboto-ThinItalic";
-    src: url("./fonts/Roboto-Regular-webfont.woff") format("woff"),
-    url("./fonts/Roboto-ThinItalic-webfont.woff") format("woff");
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('./fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('./fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff2') format('woff2'),
+         url('./fonts/Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('./fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
     /* font-family : 'Roboto'; */
-    font-family: "Roboto-Regular";
+    font-family: "robotoregular";
     overflow-x: hidden;
 }
 
@@ -141,11 +154,10 @@ header, footer {
 }
 
 .body-two div blockquote p {
+    font-family: "robotothin_italic";
     text-align: start;
     font-size: 36px;
     width: 600px;
-    font-weight: lighter;
-    font-style: italic;
     color: #1f2937;
 }
 
